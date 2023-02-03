@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+  <title>Creche Feliz </title>
+</head>
+<body>
+<div class="container">
+
+  <div class= "cabecalho">
+    <a href="index.html"> <img src="imagens/logo.png" alt="Logo" id="logo"> </a>
+    <ul class="menu">
+      <li> <a class= "item-menu" href="index.html"> Inicio </a> </li>
+      <li> <a class= "item-menu" href="pagina2.html"> Turmas </a> </li>
+      <li> <a class= "item-menu" href="pagina3.html"> Profe. </a> </li>
+    </ul>
+  </div>
+
+  <h2 class="titulo">QUERO MATRICULAR MEU(a) FILHO(a)</h2>
+    
+  <form action="" autocomplete="on" class="form">
+  <fieldset>
+    
+    <label for="texto" class="forms"> Nome completo do responsavel: </label><br>
+      <input type="text" name="texto" id="texto" placeholder="Nome completo" class="resposta"> <br> <br>
+
+    <label for="texto" class="forms"> Nome completo do aluno(a): </label><br>
+      <input type="text" name="texto" id="texto" placeholder="Nome completo" class="resposta"> <br><br>
+
+    <label for="data" class="forms">Data de nascimento do aluno:</label>
+      <input type="date" name="data" id="data" min="2017-12-31" max="2022-12-31" class="resposta"><br><br>
+      
+    <label for="sexo" class="forms"> Sexo do aluno(a): </label><br>
+      <select name="sexo" id="sexo" class="resposta">
+          <option value="1">Masculino</option>
+          <option value="2">Feminino</option>
+      </select> <br><br>
+    
+
+    <label for="selec" class="forms"> Turno desejado: </label><br>
+      <select name="selec" id="selec" class="resposta">
+          <option value="1">Matutino</option>
+          <option value="2">Vespertino</option>
+          <option value="3">Tempo integral</option>
+      </select> <br><br>
+
+    <label for="email" class="forms"> Email para contato: </label><br>
+      <input type="email" name="email" id="email" placeholder="@gmail.com" class="resposta"><br><br>
+    
+    <label for="tel" class="forms">Telefone para contato:</label><br>
+      <input type="tel" name="tel" id="tel" placeholder="(00) 00000-0000" class="resposta"><br><br>
+
+    <div id="botao">
+      <button type="submit" onclick="alert('Nós agradecemos pela preferência, futuramente entraremos em contato.')">Enviar</button>
+    </div>
+   
+  </fieldset>
+
+  </form>
+
+      <address class="rodape">
+        <p>Endereço: Rua professora Clara Aparecida, 290, Raquel, Salinas-MG <br>
+        Conatato via email: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJNvwPFQDLcMLwKTfFpMZNBrzGHrqVHgdPwxTdwZfNJfnCtSzgpcwWfKhkHZHhWmBkTnsWL" target="_blank">joaopaulloss477@gmail.com</a> <br>
+        Instagram: <a href="https://www.instagram.com/cantordonpaullooficial/" target="_blank">@cantordonpaullooficial</a> <br>
+        Contato via Whatsapp: (38) 9 9107-6675 <br>
+        Telefone: 3841-1919 <br>
+        Creche Feliz &copy;<p>
+      </address>
+  
+</div>
+</body>
+</html>
